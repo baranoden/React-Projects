@@ -6,7 +6,20 @@ import List from './List'
 
 
 function Contacts() {
-    const [contacts, setContacts] = useState([])
+    const [contacts, setContacts] = useState([
+        {
+            fullname: "mehmet",
+            phone_number: "123123"
+        },
+        {
+            fullname: "Ali",
+            phone_number: "123123"
+        },
+        {
+            fullname: "Veli",
+            phone_number: "123123"
+        },
+    ])
 
 
     useEffect(() =>{
@@ -15,7 +28,7 @@ console.log(contacts);
 
     return(
         <div>
-            <List />
+            <List contacts={contacts} />
             <Form addContact={setContacts} contacts={contacts} />
         </div>
     )
