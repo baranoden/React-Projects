@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  
+  background-color: #FED2AA;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1 {
+  color: #ec6e4c;
+  margin: 0 auto !important;
+ padding-top: 1rem;
+  font-style: italic;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

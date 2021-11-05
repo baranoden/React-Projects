@@ -1,0 +1,38 @@
+.container{
+    display:flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding:0.5rem;
+    
+}
+.dayName {
+    border: 2px solid #F3F0D7;
+    padding: 0.5rem;
+    color: #ec6e4c;
+    font-weight: 700;
+    
+}
+.dayImg{
+    border: 2px solid #F3F0D7;
+    padding: 0.5rem;
+    
+
+}
+
+.dayTemp{
+    border: 2px solid #F3F0D7;
+    padding: 0.5rem;
+}
+
+.dayTemp p:first-child{
+    text-decoration: underline;
+    font-weight: 700;
+    color: #ec6e4c
+}
+
+
+
+.flex{
+    display:flex;
+    flex-direction: column;
+}
