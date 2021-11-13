@@ -11,7 +11,7 @@ function Header() {
 
     return (
         <div className="header">
-            <div className="logo">Baran Öden</div>  
+            <div className="logo">Baran</div>  
             <div className="menu">
               <div className="web-menu">
                   <Web />

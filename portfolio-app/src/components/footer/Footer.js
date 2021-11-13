@@ -4,8 +4,8 @@ import "./Footer.css"
 
 function Footer() {
     return (
-        <div>
-            This is Footer
+        <div className="footer">
+            This portfolio created by Hyades along with a lot of Coffees and excelent songs. 🍀
         </div>
     )
 }

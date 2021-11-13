@@ -4,6 +4,8 @@ import "./Body.css"
 import Comments from './comments/Comments'
 import Contact from './contact/Contact'
 import Projects from './projects/Projects'
+import Skills from './skills/Skills'
+import Work from './work/Work'
 
 function Body() {
     return (
@@ -11,11 +13,18 @@ function Body() {
             <section id="about">
                 <About />
             </section>
-            <section id="contact">
-                <Contact />
-            </section>
+            
             <section id="projects">
                 <Projects />
+            </section>
+            <section id="skills">
+                <Skills />
+            </section>
+            <section id="work">
+                <Work />
+            </section>
+            <section id="contact">
+                <Contact />
             </section>
             <section id="comments">
                 <Comments />

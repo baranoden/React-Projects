@@ -1,8 +1,9 @@
 import React from 'react'
+import "./Seperator.css"
 
 function Seperator() {
     return (
-        <div>
+        <div className="seperator">
             
         </div>
     )

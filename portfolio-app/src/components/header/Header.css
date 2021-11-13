@@ -3,13 +3,19 @@
     justify-content: space-between;
     flex: 1;
     padding: 12px;
-    position:relative;
     align-items: center;
+    margin: 0;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  background-color: white;
+  width: 53.5%;
 }
 .menu{
     display:flex;
     flex: 1;
     justify-content: flex-end;
+
 }
 
 .menu-icon{
@@ -33,7 +39,13 @@
 }
 
 @media only screen and (max-width: 720px){
-   .mobile-menu{
+   .header{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 80%;
+   }
+    .mobile-menu{
        display: flex;
    } 
    .web-menu{
