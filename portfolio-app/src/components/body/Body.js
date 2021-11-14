@@ -27,7 +27,10 @@ function Body() {
                 <Contact />
             </section>
             <section id="comments">
-                <Comments />
+            <Comments
+        commentsUrl="http://localhost:3004/comments"
+        currentUserId="1"
+      />
             </section>
         </div>
     )
