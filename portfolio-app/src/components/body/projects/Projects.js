@@ -7,7 +7,7 @@ import "./Projects.css"
 function Projects() {
     const data = ProjectData
     return (
-        <div className="projects">
+        <div id="Projects" className="projects">
             <Seperator />
             <label className="section-title">Projects</label>
             <div>

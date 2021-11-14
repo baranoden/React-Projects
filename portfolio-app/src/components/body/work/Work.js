@@ -7,7 +7,7 @@ import Workcard from './Workcard'
 function Work() {
     const data = WorkData
     return (
-        <div className="work">
+        <div id="Work" className="work">
             <Seperator />
             <label className="section-title">Work</label>
             <div className="work-list">

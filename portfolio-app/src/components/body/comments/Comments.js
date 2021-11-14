@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import CommentForm from "./CommentForm";
 import Comment from "./Comment";
 import "./Comments.css"
+import Seperator from "../../common/seperator/Seperator.js"
 import {
   getComments as getCommentsApi,
   createComment as createCommentApi,
@@ -59,7 +60,10 @@ const Comments = ({ commentsUrl, currentUserId }) => {
   }, []);
 
   return (
+    
+
     <div className="comments">
+      <Seperator />
       <h3 className="comments-title">Comments</h3>
       <div className="comment-form-title">Write comment</div>
       <CommentForm submitLabel="Write" handleSubmit={addComment} />

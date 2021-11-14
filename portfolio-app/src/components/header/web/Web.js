@@ -17,15 +17,16 @@ function Web() {
             </a>
             </div>
             <div className="web-options">
-            <a href="#Work" >
-            <i class="fas fa-briefcase"></i>Work
-            </a>
-            </div>
-            <div className="web-options">
             <a href="#Skills" >
             <i class="fas fa-code"></i>Skills
             </a>
             </div>
+            <div className="web-options">
+            <a href="#Work" >
+            <i class="fas fa-briefcase"></i>Work
+            </a>
+            </div>
+           
             <div className="web-options">
             <a href="#Contact" >
             <i class="fas fa-id-card options-icon"></i>Contact

@@ -7,7 +7,7 @@ import "./Contact.css"
 
 function Contact() {
     return (
-        <div className="contact">
+        <div id="Contact"className="contact">
             <Seperator />
             <label className="section-title">Contact</label>
             <div className="contact-container">

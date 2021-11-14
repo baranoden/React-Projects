@@ -7,7 +7,7 @@ import SkillsCard from './SkillsCard'
 function Skills() {
     const data = SkillsData
     return (
-        <div className="skills">
+        <div id="Skills" className="skills">
             <Seperator />
             <label className="section-title">Skills</label>
             <div className="skills-container">
